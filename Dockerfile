@@ -13,5 +13,5 @@ COPY /go.* .
 # Build the Go application
 RUN go build -o app .
 
-# Set the command to run the executable when the container starts
+# Set the command to run the executable when the container starts.
 CMD ["./app"]

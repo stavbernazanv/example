@@ -1,4 +1,4 @@
-name: CV-Engine CI
+name: Multiarch Build
 
 on:
   workflow_dispatch:
